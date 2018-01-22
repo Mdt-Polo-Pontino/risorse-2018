@@ -1,0 +1,13 @@
+1.Programmare una macchina di Turing che, 
+dato un nastro iniziale contenente una sequenza arbitraria di 0 e 1, 
+termina la sua esecuzione lasciando sul nastro il bit di parità. 
+Tale bit è 1 se e solo se vi sono un numero dispari di 1 nella sequenza iniziale; 
+altrimenti vale 0. 
+
+(0,0,0,-,>)
+(0,1,1,-,>)
+(1,1,0,-,>)
+(1,0,1,-,>)
+
+(0,-,F,0,-)
+(1,-,F,1,-)
